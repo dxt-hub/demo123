@@ -1,0 +1,21 @@
+{
+    "name": "dxt-hub/demo123",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "xintao",
+            "email": "2562926431@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "User\\Client\\": "src/User/Client"
+    }
+  }
+}
